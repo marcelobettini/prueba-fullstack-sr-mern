@@ -23,6 +23,7 @@
   - Middlewares de autenticación y validaciones.
   - Limitación de peticiones.
   - Documentación con Swagger, etc.
+  - Como es un proyecto de prueba, incluí el archivo .env de la carpeta api donde tienen el usuario y contraseña con que se crea automáticamente el usuario admin al iniciar el proyecto. Esto es importante porque en el frontend solo podrán probar funcionalidades con el admin.
 
 - **Frontend** con React.
   - Custom Hooks para peticiones asíncronas y manejo de token.
@@ -30,9 +31,10 @@
   - Discriminación de acceso de acuerdo a roles.
   - Listados, etc.
 
-Como trabajo a tiempo completo de lunes a viernes, tuve el fin de semana para esta tarea. Dado que el domingo solo tenía medio día y tenía planes en familia, decidí dedicar todo el sábado a realizar una API robusta y relegar un poco el frontend, en el cual solo pude implementar algunas funcionalidades importantes debido a la lógica que manejan por detrás.
+Como trabajo a tiempo completo de lunes a viernes, tuve el fin de semana para esta tarea. Dado que el domingo solo tenía medio día y tenía planes en familia, decidí dedicar todo el sábado a realizar una API robusta y relegar un poco el frontend, en el cual solo pude implementar algunas funcionalidades, aunque son importantes debido a la lógica que manejan por detrás.
 
-Entendiendo que esto no es un producto real sino una prueba, consideré más importante poner el mayor esfuerzo en el backend, que suele ser la parte neurálgica de cualquier proyecto y donde se pueden evaluar con más detalle los conocimientos. Me hubiera encantado tener más tiempo para desarrollar un frontend completo y agradable, asimismo, para realizar unit-testing con Jest o Mocha en el backend (aunque lo probé profusamente con Postman).
+Entendiendo que esto no es un producto real sino una prueba, consideré más importante poner el mayor esfuerzo en el backend, que suele ser la parte neurálgica de cualquier proyecto y donde se pueden evaluar con más detalle los conocimientos. Me hubiera encantado tener más tiempo para desarrollar un frontend completo y agradable. También para realizar unit-testing con Jest o Mocha en el backend (aunque lo probé profusamente con Postman).
+
 
 Cordial saludo y gracias por la oportunidad.
 

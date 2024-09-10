@@ -7,7 +7,6 @@ import { iTheme } from "../types/types"
 const ThemeForm: FC = () => {
     const { getTokenFromLocalStorage } = useToken()
     const { data, isLoading, error, getData } = useFetchData<iTheme[] | null>('themes')
-    console.log(data)
     const {
         control,
         register,
