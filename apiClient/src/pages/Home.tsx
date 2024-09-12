@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom"
 import { useToken } from "../hooks/useToken";
 import { useAuth } from "../context/AuthContext";
+import ContentList from "../components/ContentList";
 function Home() {
     const { user } = useToken();
     const { logout } = useAuth()
@@ -12,13 +13,18 @@ function Home() {
     };
 
     return (
-        <header>
-            <h1>Pagina para usuarios de rol 'creador' y 'lector'</h1>
-            <p>Hello {user?.username}</p>
-            <nav>
-                <button onClick={handleLogout}>Logout</button>
-            </nav>
-        </header>
+        <>
+            <header>
+                <h1>Pagina para usuarios de rol 'creador' y 'lector'</h1>
+                <p>Hello {user?.username}</p>
+                <nav>
+                    <button onClick={handleLogout}>Logout</button>
+                </nav>
+            </header>
+            <main>
+                <ContentList />
+            </main>
+        </>
     )
 }
 
